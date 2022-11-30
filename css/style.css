@@ -1,0 +1,51 @@
+.container1 {
+    background-color: rgba(255, 166, 0, 0.915);
+    padding: 4px;
+    top: 20px;
+    left: 13px;
+    height: 60px;
+
+}
+
+.nav-item {
+    margin-left: 40px;
+
+}
+
+.navbar-nav li:hover {
+    background-color: rgb(188, 233, 232);
+}
+
+.col {
+    margin: 4px 0px;
+    padding: 8px;
+    height: 200px;
+}
+
+.card-body {
+    background-color: rgb(242, 251, 251);
+}
+
+.mainImg {
+    background-image: url("../img/img.jpg");
+    
+    
+}
+
+.logoimg {
+    height: 40px;
+    margin: 12px;
+    width: 50px;
+}
+
+.navbar {
+    top: -20px;
+}
+
+.box-container {
+    width: 80%;
+    margin-left: 120px;
+    margin-right: 120px;
+    margin-top: 150px;
+    
+}
