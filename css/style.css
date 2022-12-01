@@ -1,21 +1,71 @@
 .container1 {
-    background-color: rgba(255, 166, 0, 0.915);
+    background-image: linear-gradient(to right, #D98324, #A40606);
     padding: 4px;
     top: 20px;
     left: 13px;
     height: 60px;
-
 }
 
 .nav-item {
     margin-left: 40px;
-
 }
-
-.navbar-nav li:hover {
+.nav-link {
+    color: white !important;
+    font-size: 20px !important;
+}
+/* .navbar-nav li:hover {
     background-color: rgb(188, 233, 232);
+} */
+.firstBox {
+    margin-left: 120px;
+    margin-right: 120px;
 }
-
+.contactNum {
+    text-align: right;
+    font-weight: 700;
+    font-size: 13px;
+    margin-bottom: 5%;
+}
+.firstBlock h2 {
+        font-weight: 700;
+}
+.firstBlock p {
+    font-weight: 600;
+}
+   .firstBlockButtons{
+    display: flex;
+   }      
+.btn-grad {
+    background-image: linear-gradient(to right, #EB3349 0%, #F45C43  51%, #EB3349  100%);
+    padding: 5px 5px;
+    text-align: center;
+    transition: 0.5s;
+    font-size: 14px;
+    font-weight: 600;
+    border-color: #EB3349;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+  }
+/* 
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here 
+    color: #fff;
+    text-decoration: none;
+  } */
+  .btn-part {
+    margin-left: 1%;
+    padding: 5px 5px;
+    text-align: center;
+    border-color: #ffc72f;
+    color: #ffc72f;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 10px;
+  }
+ 
 .col {
     margin: 4px 0px;
     padding: 8px;
@@ -28,24 +78,20 @@
 
 .mainImg {
     background-image: url("../img/img.jpg");
-    
-    
 }
 
 .logoimg {
-    height: 40px;
-    margin: 12px;
-    width: 50px;
+    width: 40px;
 }
 
 .navbar {
-    top: -20px;
+    top: -10px;
 }
 
 .box-container {
     width: 80%;
     margin-left: 120px;
     margin-right: 120px;
-    margin-top: 150px;
+    margin-top: 5%;
     
 }
