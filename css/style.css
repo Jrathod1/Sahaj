@@ -93,5 +93,49 @@
     margin-left: 120px;
     margin-right: 120px;
     margin-top: 5%;
-    
+}
+.secondHeading h4{
+    text-align: center;
+}
+.secondHeading h4:before {
+    content: "";
+    display: block;
+    margin: 15px;
+    width: 50px;
+    height: 2px;
+    background: #ffc72f;
+    left: 23%;
+    position: absolute;
+  }
+.secondHeading h4:after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    margin: 15px;
+    background: #ffc72f;
+    position: absolute;
+  }
+.secondHeading p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+.numberContainer, .dataContainer{
+    display: flex;
+}
+.numberContainer{
+    margin-bottom: -15px;
+}
+.number{
+    margin-right: 10%;
+    width: 7%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #F45C43;
+}
+.numberData{
+    margin-right: 7%;
+    width: 10%;
+    font-size: 10px;
+    font-weight: 800;
 }
